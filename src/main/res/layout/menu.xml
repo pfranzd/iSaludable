@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffebdfa1"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Integrants">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/isaludable"
+        android:contentDescription="isaludable" />
+
+    <Button
+        android:layout_width="250dp"
+        android:textColor="#ff0f1281"
+        android:background="#ff3eb7da"
+        android:layout_height="wrap_content"
+        android:text="Agregar Comida"
+        android:id="@+id/button"
+        android:textSize="20dp"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:textColor="#ff218104"
+        android:background="#ff5ada26"
+        android:layout_height="wrap_content"
+        android:text="Estadísticas"
+        android:id="@+id/button2"
+        android:textSize="20dp"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:textColor="#ffd4bd00"
+        android:background="#ffe8f654"
+        android:layout_height="wrap_content"
+        android:text="Ideas para cocinar"
+        android:id="@+id/button3"
+        android:textSize="20dp"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:textColor="#ffc23a99"
+        android:background="#ffda74b1"
+        android:layout_height="wrap_content"
+        android:text="Deportes"
+        android:id="@+id/button4"
+        android:textSize="20dp"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
