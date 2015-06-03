@@ -9,19 +9,14 @@ import android.widget.Button;
  */
 public class Integrants extends Activity{
 
-    Button comida, estadisticas, cocinar, deportes;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.menu);
+        setContentView(R.layout.integrantes);
 
-        comida = (Button) findViewById(R.id.button);
-        estadisticas = (Button) findViewById(R.id.button2);
-        cocinar = (Button) findViewById(R.id.button3);
-        deportes = (Button) findViewById(R.id.button4);
 
     }
-
 
 }

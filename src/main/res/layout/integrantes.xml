@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Sexo:"
+        android:text="Sexo (M/F):"
         android:id="@+id/textView2"
         android:textColor="#ffa06455"
         android:layout_below="@+id/imageView"
@@ -58,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Sexo:"
+        android:text="Estatura (cm):"
         android:id="@+id/textView3"
         android:textColor="#ffa06455"
         android:layout_below="@+id/imageView"
@@ -102,8 +102,16 @@
         android:background="#ffffff"
         android:layout_below="@+id/textView2" />
 
-
-
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="right"
+        android:id="@+id/editTextHeight"
+        android:inputType="none"
+        android:maxLength="20"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView3" />
 
 
 </RelativeLayout>

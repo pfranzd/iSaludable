@@ -1,7 +1,6 @@
 package cl.pedrofranz.isaludable;
 
 import android.content.Intent;
-import android.media.Image;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,7 +9,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 
 public class MainActivity extends ActionBarActivity {
 
@@ -30,10 +28,16 @@ public class MainActivity extends ActionBarActivity {
         image = (ImageView) findViewById(R.id.imageView);
     }
 
+    public void ToIMenu(View v){
+        Intent IMenu = new Intent(this, IMenu.class);
+        startActivity(IMenu);
+    }
+
     public void ToIntegrants(View v){
         Intent Integrants = new Intent(this, Integrants.class);
         startActivity(Integrants);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
